@@ -51,3 +51,29 @@ jobs:
           base: ""
           plugin_repositories: yes
           plugin_repositories_pinned: 2
+      
+      - name: Compact display
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.compact.svg
+          token: ${{ secrets.README_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_only: polyglot, stargazer, sponsor, deployer, member, maintainer, developer, scripter, packager, explorer, infographile, manager
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
+          
+      - name: Repositories and diff history
+        uses: lowlighter/metrics@latest 
+        with:
+          filename: metrics.plugin.lines.history.svg
+          token: ${{ secrets.README_TOKEN }}
+          base: ""
+          plugin_lines: yes
+          plugin_lines_sections: repositories, history
+          plugin_lines_repositories_limit: 2
+          plugin_lines_history_limit: 1
+          repositories_skipped: |
+            @use.patterns
+            */*
+            +lowlighter/metrics
