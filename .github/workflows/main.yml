@@ -67,7 +67,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.languages.indepth.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.README_TOKEN }}
           base: ""
           plugin_languages: yes
           plugin_languages_indepth: yes
