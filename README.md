@@ -1,10 +1,1 @@
-<div style="display: grid; grid-template-columns: repeat(2, 370px); grid-template-rows: repeat(2, 320px); grid-gap: 20px;">
-  <img align="left" width="45%" height="100%" alt="Metrics" src="github-metrics.svg">
-  <img align="right" width="45%" height="45%" alt="Metrics" src="metrics.plugin.achievements.compact.svg">
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <img align="left" width="45%" height="45%" alt="Metrics" src="metrics.plugin.repositories.pinned.svg">
-  <img align="right" width="45%" height="45%" alt="Metrics" src="metrics.plugin.activity.svg">
-  <br><br><br><br><br><br><br><br><br><br>
-  <img align="left" width="45%" height="45%" alt="Metrics" src="metrics.plugin.isocalendar.fullyear.svg">
-  <img align="right" width="45%" height="45%" alt="Metrics" src="metrics.plugin.languages.indepth.svg">
-</div>
+![Metrics](https://metrics.lecoq.io/HarshitShukla-dev?template=terminal&base.hireable=true&languages=1&habits=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=true&base.skip=false&languages=false&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&habits=false&habits.from=200&habits.days=14&habits.facts=true&habits.charts=false&habits.charts.type=graph&habits.trim=false&habits.languages.limit=8&habits.languages.threshold=0%25&config.timezone=Asia%2FCalcutta)
